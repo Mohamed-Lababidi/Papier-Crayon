@@ -1,0 +1,34 @@
+.list-box {
+  width: 30%;
+  border-right: 1px solid black;
+}
+.direct-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid black;
+  height: 34px;
+  font-family: 'RobotoLight';
+}
+.img-profile-listdm {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+.div-container-conv {
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+.div-container-conv {
+  font-family: 'RobotoLight';
+
+}
+.img-name-conv {
+  display: flex;
+  margin-left: 20px;
+}
+.message {
+  color: grey;
+}

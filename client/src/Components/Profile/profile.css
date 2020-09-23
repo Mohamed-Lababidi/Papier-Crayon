@@ -1,0 +1,224 @@
+.profile-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.profile-pp {
+  border-radius: 200px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profile-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 204px;
+  justify-content: center;
+}
+.arrow-back{
+  position: absolute;
+  left: 50px;
+  top: 2px;
+}
+.profile-pic{
+  position: absolute;
+  left: 360px;
+}
+.profile-title-feed h4 {
+  font-family: 'RobotoMedium';
+}
+
+.profile-container button {
+  font-family: 'RobotoLight';
+}
+
+.profile-name-social {
+  position: absolute;
+  width: 520px;
+  left: 540px;
+  margin-left: 2px auto;
+}
+
+.description-profile {
+  font-family: 'RobotoLight';
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.profile-name-social h2 {
+  letter-spacing: 0.1em;
+  margin-right: 10px;
+}
+
+.profile-button-container {
+  position: relative;
+  width: 60px;
+  height: 40px;
+  left: 27%;
+  margin: 4px 0;
+}
+
+.profile-button {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.profile-button button {
+  height: 25px;
+  margin-right: 8%;
+  border-radius: 0;
+  border: 1px solid rgb(189, 189, 189);
+  background-color: white;
+  box-shadow: none;
+}
+
+.dmlink {
+  text-decoration: none;
+}
+
+.profile-button-basket {
+  position: absolute;
+  padding: 4px;
+  width: 100%;
+}
+
+.profile-button-basket button {
+  width: 100%;
+  height: 31px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.profile-button-basket input {
+  width: 24px;
+  margin-left: 8%;
+}
+
+.profile-title-feed h4 {
+  font-size: 1.6em;
+}
+
+.social-link {
+  width: 30%;
+  text-align: left;
+}
+
+.social-link a img {
+  margin-top: 15px;
+  margin-right: 25px;
+}
+
+.link-social-one {
+  width: 24px;
+}
+
+.link-social-two {
+  width: 22px;
+}
+
+.link-social-three {
+  width: 30px;
+}
+
+.link-social-one:hover {
+  opacity: 0.8;
+}
+.link-social-two:hover {
+    opacity: 0.8;
+}
+.link-social-three:hover {
+  opacity: 0.8;
+}
+
+.profile-followers {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.profile-followers button {
+  border: none;
+  background-color: transparent;
+  width: 100px;
+  text-align: left;
+  font-family: 'RobotoLight';
+  font-size: 12px;
+}
+
+.profile-post {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.profile-title-feature {
+  display: flex;
+  justify-content: flex-end;
+  width: 96%;
+  height: 50px;
+}
+
+.profile-title-feed {
+  display: flex;
+  justify-content: flex-end;
+  width: 93%;
+  height: 50px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile-name-social {
+  font-family: 'RobotoMedium';
+}
+
+.profile-ouioui {
+  display: flex;
+  width: 70%;
+}
+
+.buttonfollowdm {
+  font-size: 12px;
+  font-family: 'RobotoMedium';
+  text-transform: none;
+}
+.featured-container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+.featured-container h4 {
+  font-family: 'RobotoMedium';
+  letter-spacing: 0.1em;
+  font-size: 20px;
+}
+.profilepicturepreview {
+  margin-top: 140px;
+}
+
+.imgPreviewprofile {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 300px;
+}
+
+.imgPreviewprofile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 300px;
+}

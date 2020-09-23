@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url('./Components/Assets/Font/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoItalicLight';
+  src: url('./Components/Assets/Font/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('./Components/Assets/Font/Roboto-Light.ttf');
+}
+
+.navbar {
+  height: 80px;
+  font-size: 2em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.cont-cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+}
+
+body {
+  margin-top: 100px;
+}

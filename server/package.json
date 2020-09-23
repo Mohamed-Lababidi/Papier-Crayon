@@ -1,0 +1,58 @@
+{
+  "name": "papier-crayon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npx standard --fix"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-router": "0.0.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "node": "^14.4.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "slug": "^3.3.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildCodeSchool/paris-react-2003-pjt3-ventedesign-back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WildCodeSchool/paris-react-2003-pjt3-ventedesign-back/issues"
+  },
+  "homepage": "https://github.com/WildCodeSchool/paris-react-2003-pjt3-ventedesign-back#readme",
+  "description": ""
+}

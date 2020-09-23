@@ -1,0 +1,16 @@
+.design{
+    width:60%;
+}
+.card-cont{
+    cursor: pointer;
+}
+
+.img-cont{
+display: flex;
+justify-content: center;
+}
+
+.img-land{
+    text-align: center;
+    width: 100%;
+}

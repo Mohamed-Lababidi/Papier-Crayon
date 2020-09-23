@@ -1,0 +1,124 @@
+.cont-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 30px auto;
+    min-height: 600px;
+}
+
+.img-basket {
+    width: 30%;
+}
+
+.img-banc {
+    height: 40%;
+    width: 30%;
+}
+
+/* .cont-bask{
+margin-top: 30px;
+margin-left: 40px;
+border: 2px solid black;
+width: 55%;
+height: 100%;
+padding: 20px;
+} */
+
+/* .cont-tot{
+    margin-top: 30px;
+    margin-left: 40px;
+    border: 2px solid black;
+    width: 35%;
+    height: 100%;
+    padding: 20px;
+    } */
+
+.card-bask {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.card-tot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.det-bask {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    width: 90%;
+    position: relative;
+}
+
+.h3-bask {
+    text-align: right;
+}
+
+.btn-tot {
+    width: 80%;
+}
+
+.align-paie {
+    text-align: center;
+}
+
+.select-liv {
+    width: 80%;
+}
+
+.prod-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.total,
+.total-active {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+.total-item {
+    width: 90%;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.total-item h4 {
+    padding-right: 8px;
+}
+
+.titlebasket {
+    font-family: 'RobotoMedium';
+}
+
+.nothingtoshop {
+    font-family: 'RobotoLight';
+}
+
+.prod-cont {
+    font-family: 'RobotoLight';
+}
+
+.containbasket h4 {
+    padding-right: 8px;
+}
+
+.containbasket {
+    display: flex;
+}

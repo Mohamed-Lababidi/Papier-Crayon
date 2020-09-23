@@ -1,0 +1,41 @@
+.login-button-register {
+    color: white;
+}
+.registercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.registercontainer h1 {
+font-family: "RobotoMedium";
+}
+.registerform {
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signUpButton{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-around;
+}
+.registerappcontainer {
+    margin-bottom: 40px;
+    display: flex;
+}
+.registerinput {
+    text-align: center;
+    width: 60%;
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}

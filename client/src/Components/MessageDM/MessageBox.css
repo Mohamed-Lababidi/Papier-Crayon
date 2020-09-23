@@ -1,0 +1,23 @@
+.messagebox-container {
+  color: rgb(66, 93, 94);
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  padding: 1em;
+  padding-bottom: 1.8em;
+  background-color: #fff;
+}
+
+.messagebox-name-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #3cb5de;
+}
+.messagebox-p {
+  text-align: left;
+  font-size: 14px;
+}

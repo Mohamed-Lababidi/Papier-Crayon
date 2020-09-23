@@ -1,0 +1,141 @@
+a {
+  text-decoration: none;
+}
+
+input:focus,
+.postCommBtn:focus {
+  outline: none !important;
+}
+
+.textGreen {
+  color: #45d695;
+  font-weight: 600;
+}
+.avatarSml {
+  width: 30px;
+}
+.avatarMed {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 20px;
+}
+/* FONT SIZING AND WEIGHT */
+.textBold {
+  font-weight: 700;
+  font-size: 15px;
+}
+.textSemiBold {
+  font-weight: 600;
+  font-size: 14px;
+}
+.textRegularLrg {
+  font-weight: 400;
+  font-size: 14px;
+}
+.textRegularSml {
+  font-weight: 400;
+  font-size: 12px;
+}
+/* PLACEHOLDERS */
+input::-webkit-input-placeholder {
+  color: #999999;
+}
+/* Firefox 18- */
+input:-moz-placeholder {
+  color: #999999;
+}
+/* Firefox 19+ */
+input::-moz-placeholder {
+  color: #999999;
+}
+input:-ms-input-placeholder {
+  color: #999999;
+}
+
+/* COMMENT INPUT */
+.commAreaWrap {
+  width: 95%;
+  max-width: 793px;
+  margin: 50px auto 0 auto;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+}
+.commInpWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.commInpWrap .commInp {
+  width: 100%;
+  margin: 0 15px;
+  background-color: #fafafa;
+  border: 1px solid #d5d5d5;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+}
+.commInp:focus {
+  outline: none !important;
+  border: 1px solid #474948;
+}
+.postCommBtn {
+  width: 100%;
+  max-width: 82px;
+  height: 25px;
+  border-radius: 60px;
+  background-color: #0f0f0f;
+  color: white;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* COMMENTS AND REPLIES */
+
+.infobox{
+  display: flex;
+  flex-direction: row;
+}
+.timePosted {
+  font-size: 11px; 
+  margin: auto 3px;
+  color: rgb(168, 168, 168);
+  font-family: 'RobotoLight';
+}
+.userName {
+  margin: auto 3px;
+  font-size: 1em;
+}
+.commWrap {
+  /* border-top: 1px solid #e7eaef; */
+  padding: 20px 15px;
+}
+.commWrapAll{
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  max-height: 445px;
+  overflow: scroll;
+}
+.commReplyWrap {
+  margin-left: 55px;
+  padding-top: 20px;
+}
+.postInfo {
+  display: inline-block;
+  margin-left: 55px;
+}
+.userComm {
+  font-size: 1em;
+  font-family: 'RobotoLight';
+}
+.commAction{
+  font-size: 11px;
+}

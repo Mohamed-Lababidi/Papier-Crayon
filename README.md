@@ -20,4 +20,4 @@ N.B = 3 branches présente dans le repository :
   **client: Front-end déployé sur Netlify  
   **server: Back-end déployé sur Heroku  
 
-Pour plus de reseignements vous pouvez me contacter via mon [Linkedin](https://www.linkedin.com/in/mamednoorgohabur/)
+Pour plus de reseignements vous pouvez me contacter via mon [Linkedin](https://www.linkedin.com/in/mohamed-lababidi/)
